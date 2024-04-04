@@ -1,1 +1,1 @@
-export * from './OnlineCourse';
+export * from './ClientGroups';

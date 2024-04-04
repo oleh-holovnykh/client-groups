@@ -19,3 +19,9 @@ export interface PracticeClass extends Event {
   class: number;
   subclass: number;
 }
+
+export interface ClientGroups {
+  id: number;
+  type: string;
+  startDate: string;
+}

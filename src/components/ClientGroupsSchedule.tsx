@@ -46,7 +46,7 @@ export const ClientGroupsSchedule: React.FC<Props> = ({ groups }) => {
         className='text-blue-600 hover:underline'
         target='_blank'
         href='https://maps.app.goo.gl/gpfjsssta7SDMBUC8'
-      >Вул. Кловський узвіз, 4а</a>
+      >вул. Кловський узвіз, 4а</a>
       
       <br />
       <span className='italic'>

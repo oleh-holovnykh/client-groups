@@ -8,6 +8,10 @@ interface Props {
 export const ClientGroupsSchedule: React.FC<Props> = ({ groups }) => {
   const onlineGroups = groups
     .filter((group) => group.type === 'online')
+    .filter((group) => {
+      const startDate = new Date(group.startDate);
+      return startDate.getTime() >= Date.now();
+    })
     .sort((a, b) => {
       const dateA = new Date(a.startDate);
       const dateB = new Date(b.startDate);
@@ -16,6 +20,10 @@ export const ClientGroupsSchedule: React.FC<Props> = ({ groups }) => {
 
   const offlineGroups = groups
     .filter((group) => group.type === 'offline')
+    .filter((group) => {
+      const startDate = new Date(group.startDate);
+      return startDate.getTime() >= Date.now();
+    })
     .sort((a, b) => {
       const dateA = new Date(a.startDate);
       const dateB = new Date(b.startDate);

@@ -51,21 +51,19 @@ export const ClientGroupsSchedule: React.FC<Props> = ({ groups }) => {
             );
           })}
           <br />
-          <br />
+          <div className='mt-2'>
           <a
             className='text-blue-600 hover:underline'
             target='_blank'
             href='https://maps.app.goo.gl/gpfjsssta7SDMBUC8'
           >вул. Кловський узвіз, 4а</a>
-          
           <br />
           <span className='italic'>
             1 під'їзд зправа, у під'їзді білі двері зліва, код: 1301#, по сходах
             вниз, двері прямо
           </span>
-          <br />
-          <br />
-          <span className='bg-yellow-100 p-1 inline-block'>  🗓️ <b>Online в Zoom:</b> </span>
+          </div>
+          <span className='bg-yellow-100 p-1 inline-block mt-4'>  🗓️ <b>Online в Zoom:</b> </span>
           <br />
           {onlineGroups.map((group, i) => {
             const startDate = new Date(group.startDate);
@@ -82,15 +80,15 @@ export const ClientGroupsSchedule: React.FC<Props> = ({ groups }) => {
             );
           })
           }
-          <br />
-          <br />
-          Посилання для підключення, будь ласка, уточнюйте у <a
+          <div className='mt-2'>
+          Щоб отримати посилання для підключення, будь ласка, напишіть <a
             className='text-blue-600 hover:underline'
             target='_blank'
             href='https://t.me/oleh_holovnykh'
           >
             t.me/oleh_holovnykh
           </a>
+          </div>
     </div></div></div>
   );
 };

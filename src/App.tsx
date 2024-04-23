@@ -72,7 +72,7 @@ function App() {
           </NavLink>
         </div>
       </div>
-      <div className='mt-6'><Outlet /></div>
+      <div className='mt-4'><Outlet /></div>
     </>
   );
 }

@@ -27,10 +27,19 @@ function App() {
         <span className='mt-4 block'>
           <b>Розстановка запиту:</b> 5000 грн
         </span>
-        <span className='mt-2 block'>
+        <span className='mt-1 block'>
           Участь заступником: 300 грн
         </span>
-        <span className='mt-2 block'>
+        <span className='mt-1 block'>
+          Ведуча: <a
+            className='text-blue-600 hover:underline'
+            target='_blank'
+            href='https://www.facebook.com/amara.elenagolovanova'
+          >
+            Олена Голованова
+          </a>
+        </span>
+        <span className='mt-1 block'>
           Записатись: <a
             className='text-blue-600 hover:underline'
             target='_blank'

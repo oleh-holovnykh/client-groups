@@ -30,6 +30,15 @@ function App() {
         <span className='mt-2 block'>
           Участь заступником: 300 грн
         </span>
+        <span className='mt-2 block'>
+          Записатись: <a
+            className='text-blue-600 hover:underline'
+            target='_blank'
+            href='https://t.me/oleh_holovnykh'
+          >
+            t.me/oleh_holovnykh
+          </a>
+        </span>
         <div className='mt-4'>
         <NavLink to="/payment">
             <button

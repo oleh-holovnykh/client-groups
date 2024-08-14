@@ -25,10 +25,10 @@ function App() {
     <>
       <div className='text-center mb-2'>
         <span className='mt-4 block'>
-          <b>Розстановка запиту:</b> 5000 грн
+          <b>Розстановка запиту:</b> 4000 грн
         </span>
         <span className='mt-1 block'>
-          Участь заступником: 300 грн
+          Участь заступником: 200 грн
         </span>
         <span className='mt-1 block'>
           Ведуча: <a

@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <div className='text-center mb-2'>
-        <span className='mt-4 block'>
+        {/* <span className='mt-4 block'>
           <b>Розстановка запиту:</b> 4000 грн <br/>(передплата 500)
         </span>
         <span className='mt-1 block'>
@@ -38,8 +38,8 @@ function App() {
           >
             Олена Голованова
           </a>
-        </span>
-        <span className='mt-1 block'>
+        </span> */}
+        {/* <span className='mt-1 block'>
           Записатись: <a
             className='text-blue-600 hover:underline'
             target='_blank'
@@ -47,7 +47,7 @@ function App() {
           >
             t.me/oleh_holovnykh
           </a>
-        </span>
+        </span> */}
         <div className='mt-4'>
         <NavLink to="/payment">
             <button
